@@ -1,0 +1,1 @@
+// AgcWeaningPercentage: CommonJS Main

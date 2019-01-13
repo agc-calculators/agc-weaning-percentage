@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "tag": "agc-weaning-percentage",
+      "dependencies": [],
+      "componentClass": "AgcWeaningPercentage",
+      "componentPath": "components/agc-weaning-percentage/agc-weaning-percentage.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "mode",
+          "type": "String",
+          "attr": "mode"
+        },
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        },
+        {
+          "name": "tract",
+          "type": "String",
+          "attr": "tract"
+        }
+      ],
+      "states": [
+        {
+          "name": "cache"
+        },
+        {
+          "name": "currentStep"
+        },
+        {
+          "name": "results"
+        },
+        {
+          "name": "submitted"
+        }
+      ],
+      "events": [
+        {
+          "event": "agcCalculated"
+        },
+        {
+          "event": "agcStepChanged"
+        }
+      ]
+    },
+    {
+      "tag": "agc-weaning-percentage-inputs",
+      "dependencies": [],
+      "componentClass": "AgcWeaningPercentageInputs",
+      "componentPath": "components/agc-weaning-percentage-inputs/agc-weaning-percentage-inputs.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-weaning-percentage-progress",
+      "dependencies": [],
+      "componentClass": "AgcWeaningPercentageProgress",
+      "componentPath": "components/agc-weaning-percentage-progress/agc-weaning-percentage-progress.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "currentStep"
+        }
+      ]
+    },
+    {
+      "tag": "agc-weaning-percentage-results",
+      "dependencies": [],
+      "componentClass": "AgcWeaningPercentageResults",
+      "componentPath": "components/agc-weaning-percentage-results/agc-weaning-percentage-results.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-weaning-percentage-results-placeholder",
+      "dependencies": [],
+      "componentClass": "AgcWeaningPercentageResultsPlaceholder",
+      "componentPath": "components/agc-weaning-percentage-results-placeholder/agc-weaning-percentage-results-placeholder.js",
+      "styles": {}
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.15.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}
